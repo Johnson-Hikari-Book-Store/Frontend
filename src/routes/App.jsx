@@ -8,7 +8,7 @@ function App() {
       <Routes>
         <Route path="/home" />
         <Route element={<PrivateRoutes />}>
-          {/* <Route path="/book:id" /> */}
+          <Route path="/book:id" />
           {/* <Route path="/user:id" /> */}
           {/* <Route path="/setting:id" /> */}
         </Route>
