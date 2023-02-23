@@ -1,9 +1,26 @@
-import React from 'react'
+import React from "react";
+import { Button } from "@mui/material";
 
-const Button = () => {
+const PrimaryBtn = (props) => {
   return (
-    <div>Button</div>
-  )
-}
+    <Button
+      sx={{
+        marginLeft: 3,
+        backgroundColor: "background.button",
+        fontFamily: "Zilla Slab",
+        color: "secondary.main",
+        letterSpacing: "0.2rem",
+        cursor: "pointer",
+        fontWeight: "bold",
+        "&:hover": {
+          backgroundColor: "background.button",
+        },
+        textTransform: "none",
+      }}
+    >
+      {props.label}
+    </Button>
+  );
+};
 
-export default Button
+export default PrimaryBtn;

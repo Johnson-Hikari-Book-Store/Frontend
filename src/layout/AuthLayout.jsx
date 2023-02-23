@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const AuthLayout = () => {
   return (
-    <div>AuthLayout</div>
-  )
-}
+    <div>
+      {/* <Outlet /> */}
+      {/* setting page*/}
+    </div>
+  );
+};
 
-export default AuthLayout
+export default AuthLayout;
