@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Button, Toolbar, Typography } from "@mui/material";
-import PrimaryBtn from "../UI/PrimaryBtn";
+import PrimaryBtn from "./PrimaryBtn";
 
 const Nav = () => {
   return (
@@ -46,22 +46,7 @@ const Nav = () => {
           >
             Sign up
           </Typography>
-          <PrimaryBtn
-            // sx={{
-            //   marginLeft: 3,
-            //   backgroundColor: "background.button",
-            //   fontFamily: "Zilla Slab",
-            //   color: "secondary.main",
-            //   letterSpacing: "0.2rem",
-            //   cursor: "pointer",
-            //   fontWeight: "bold",
-            //   "&:hover": {
-            //     backgroundColor: "background.button",
-            //   },
-            //   textTransform: "none",
-            // }}
-            label="Sell"
-          ></PrimaryBtn>
+          <PrimaryBtn label="Sell"></PrimaryBtn>
         </Toolbar>
       </AppBar>
     </>
