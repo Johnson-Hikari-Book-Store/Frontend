@@ -10,7 +10,7 @@ const AppLayout = () => {
         <Nav />
       </Box>
       <Box>
-        <Container maxWidth="lg">
+        <Container maxWidth="lg" width="sm">
           <Outlet />
         </Container>
       </Box>
